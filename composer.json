@@ -1,0 +1,23 @@
+{
+    "name": "guiller/destinia_technical",
+    "description": "Prueba técnica Destinia",
+    "type": "project",
+    "require-dev": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guillermo",
+            "email": "gsmoral@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
